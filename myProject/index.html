@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+
+<body onload="onload()">
+
+    <div id="welcom">
+
+        <!-- <div class="w hide">
+            <div id="registration">
+
+                <form onsubmit="onformsubmitregister(event)">
+                    <h2>הרשמה</h2>
+
+                    <p>שם מלא</p>
+                    <input type="text">
+                    <p>טלפון</p>
+                    <input type="tel">
+                    <p>תעודת זהות</p>
+                    <input type="text">
+                    <p>מייל</p>
+                    <input type="email">
+                    <p>כמה קלוריות אתה מעוניין לצרוך ביום?</p>
+                    <input type="number">
+                    <div><button type="submit">הרשם</button></div>
+
+                </form>
+            </div>
+
+
+            <div id="connection">
+                <form onsubmit="onformsubmitconnection(event)">
+                    <h2>התחברות</h2>
+                    <p>שם מלא</p>
+                    <input type="text" name="name">
+                    <p>תעודת זהות</p>
+                    <input type="text" name="iddd">
+                    <div><button type="submit" onclick="showObje(what_a_meal,welcom,event)">התחבר</button></div>
+                </form>
+            </div>
+        </div> -->
+    </div>
+
+    <div id="f" >
+        <header>
+            <h1>יומן האכילה שלי</h1>
+            <button onclick="endOfDay()">סוף יום</button>
+        </header>
+        <div id="food" class="f hide">
+            <!-- <div class="card">
+            <img src="carbohydrates/ביגל.jpg" alt="">
+            <p>ביגל</p>
+            <p>150 קלוריות</p>
+            <button type="submit" onclick="addToCart()">הוסף</button>
+        </div> -->
+        </div>
+    </div>
+
+    <div id="cart" class="c hide">
+        <h2>אכלת היום:</h2>
+        <div id="plate">
+            <!-- <div class="item">לחם | 130 קלוריות</div> -->
+        </div>
+        <button onclick="sum()">סיכום יומי</button>
+    </div>
+
+    <div id="sum">
+        <div id="ss">
+
+        </div>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+
+</html>
